@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="'drvoy skin'">
+
+    <object name="drvoy_skin_images"
+            meta_type="Filesystem Directory View"
+            directory="drvoy.skin:skins/drvoy_skin_images"/>
+
+    <skin-path name="'drvoy skin'"
+               based-on="Sunburst Theme">
+        <layer name="drvoy_skin_images"
+               insert-after="custom"/>
+
+    </skin-path>
+
+</object>

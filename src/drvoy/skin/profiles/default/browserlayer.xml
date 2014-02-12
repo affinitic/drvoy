@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<layers>
+    <layer name="drvoy.skin"
+           interface="drvoy.skin.interfaces.ICustomTheme" />
+</layers>

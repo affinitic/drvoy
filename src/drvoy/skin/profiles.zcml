@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="'drvoy skin'"
+      directory="profiles/default"
+      description="Installs profile for 'drvoy skin'"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
