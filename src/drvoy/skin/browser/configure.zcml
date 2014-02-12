@@ -7,7 +7,7 @@
 
 <!-- nouzotre portal Zope 3 browser layer -->
   <interface
-      interface=".interfaces.IdrvoyTheme"
+      interface=".interfaces.ICustomTheme"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="drvoy skin layer"
       />

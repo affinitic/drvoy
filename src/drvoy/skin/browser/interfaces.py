@@ -4,7 +4,7 @@ from zope.interface import Interface
 from plone.theme.interfaces import IDefaultPloneLayer
 
 
-class IdrvoyTheme(IDefaultPloneLayer):
+class ICustomTheme(IDefaultPloneLayer):
     """
     Theme for drvoy
     """
