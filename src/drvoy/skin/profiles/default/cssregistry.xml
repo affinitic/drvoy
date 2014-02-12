@@ -2,7 +2,7 @@
 <object name="portal_css">
 
     <stylesheet title="'drvoy skin' Styles"
-                id="++theme++drvoy.skin/css/style.css"
+                id="++theme++drvoy.skin/style.css"
                 media="screen"
                 rel="stylesheet"
                 rendering="import"
