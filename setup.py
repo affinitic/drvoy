@@ -3,7 +3,7 @@ import os
 
 version = '0.1'
 
-setup(name='drvoy',
+setup(name='drvoy.skin',
       version=version,
       description="'drvoy skin'",
       long_description=open("README.txt").read() + "\n" +
