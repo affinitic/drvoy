@@ -40,6 +40,9 @@
         
     <replace css:content-children="#portal-logo"
              css:theme-children="#portal-logo" />
+    
+    <replace css:content-children="#portal-globalnav"
+             css:theme-children="#menu-sup" />
 
     <replace css:content-children="#portal-column-one"
              css:theme-children="#left-column" />

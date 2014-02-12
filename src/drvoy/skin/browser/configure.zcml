@@ -1,0 +1,43 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="drvoy.skin">
+
+
+
+<!-- nouzotre portal Zope 3 browser layer -->
+  <interface
+      interface=".interfaces.IdrvoyTheme"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="drvoy skin layer"
+      />
+
+
+<!-- ressources -->
+
+  <browser:resource
+      file="resource/supersized.3.2.7.min.js"
+      name="supersized.3.2.7.min.js"
+      />
+
+  <browser:resource
+      file="resource/supersized.shutter.min.js"
+      name="supersized.shutter.min.js"
+      />
+
+  <browser:resource
+      file="resource/jquery.easing.min.js"
+      name="jquery.easing.min.js"
+      />
+
+  <browser:resource
+      file="resource/drvoy.js"
+      name="drvoy.js"
+      />
+
+
+
+
+
+
+</configure>

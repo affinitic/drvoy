@@ -7,11 +7,21 @@
     <object name="drvoy_skin_images"
             meta_type="Filesystem Directory View"
             directory="drvoy.skin:skins/drvoy_skin_images"/>
+    <object name="drvoy_skin_templates"
+            meta_type="Filesystem Directory View"
+            directory="drvoy.skin:skins/drvoy_skin_templates"/>
+    <object name="drvoy_skin_styles"
+            meta_type="Filesystem Directory View"
+            directory="drvoy.skin:skins/drvoy_skin_styles"/>
 
     <skin-path name="'drvoy skin'"
                based-on="Sunburst Theme">
         <layer name="drvoy_skin_images"
                insert-after="custom"/>
+        <layer name="drvoy_skin_templates"
+               insert-after="drvoy_skin_images"/>
+        <layer name="drvoy_skin_styles"
+               insert-after="drvoy_skin_templates"/>
 
     </skin-path>
 

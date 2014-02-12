@@ -1,0 +1,170 @@
+/*** PLONE ***/
+h1, h2, h3, h4, h5, h6 {
+color:#ffb252;
+font-family: "Helvetica Neue",Arial,FreeSans,sans-serif;
+font-weight: bold;
+line-height: 1.5em;
+text-shadow:2px 2px 4px rgba(0, 0, 0, 0.8);
+border-bottom:0px solid #000;
+}
+
+h1{
+background-image:url(images/logo_drvoy_small.png);
+background-repeat:no-repeat;
+background-position:left 20px;
+padding-left:80px;
+margin-bottom:10px;
+border-bottom:1px dotted #666;
+border-top:1px dotted #666;
+}
+
+h3{
+color:#776003;
+text-shadow:2px 2px 6px rgba(255,240,146,0.8);
+}
+
+
+/*** PORTAL-SITEACTIONS ***/
+div#portal-siteactions{
+float:left;
+width:300px;
+height:5px;
+margin-top:8px;
+}
+
+div#portal-siteactions a{
+color:#e0bc85;
+transition:all 0.4s ease-in;
+transition:all 0.4s ease-in;
+-moz-transition:all 0.4s ease-in;
+-o-transition:all 0.4s ease-in;
+-webkit-transition:all 0.4s ease-in;
+-ms-transition:all 0.4s ease-in;
+}
+
+div#portal-siteactions a:hover{
+color:#ffeeb5;
+}
+
+/*** PERSONAL-TOOLS ***/
+div#personal-tools{
+float:right;
+width:300px;
+}
+
+div#personal-tools ul#portal-personaltools.deactivated,
+div#personal-tools dl#portal-personaltools,
+div#personal-tools dl#portal-personaltools dd{
+background-color:rgba(200, 200, 200, 0.7);
+color: #FF9700 !important;
+}
+
+div#personal-tools ul#portal-personaltools li#anon-personalbar a#personaltools-login{
+color:#FF9700 !important;
+}
+
+
+div#personal-tools dl#portal-personaltools dd{
+border-radius:8px 0px 8px 8px;
+width:150px;
+top:24px;
+}
+
+div#personal-tools dl#portal-personaltools dt a#user-name,
+div#personal-tools dl#portal-personaltools dd ul li#personaltools-dashboard a{
+border:1px solid rgba(255,218,162, 0);
+border-radius:12px;
+color:#FF9700 !important;
+}
+
+div#personal-tools dl#portal-personaltools dd a:hover{
+border:1px solid rgba(255,218,162, 0.6);
+border-radius:12px;
+background-color:rgba(200, 200, 200, 0.5);
+}
+
+
+#content{
+font-weight:bold;
+}
+
+#content a:link, dl.portlet a:link {
+border-bottom: 0em solid transparent;
+text-shadow:1px 1px 3px rgba(50,50,50,0.5);
+color: #7e003b;
+}
+
+#content a:hover, dl.portlet a:hover {
+color: #f10096 !important;
+}
+
+.table-gigs,
+.table-contact,
+.table-bio-disco,
+.the-band,
+.description-news{
+margin:auto;
+border-radius:12px;
+background: -moz-linear-gradient(top,  rgba(243,226,199,0.7) 0%, rgba(193,158,103,0.7) 50%, rgba(182,141,76,0.7) 51%, rgba(233,212,179,0.7) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,226,199,0.7)), color-stop(50%,rgba(193,158,103,0.7)), color-stop(51%,rgba(182,141,76,0.7)), color-stop(100%,rgba(233,212,179,0.7))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(243,226,199,0.7) 0%,rgba(193,158,103,0.7) 50%,rgba(182,141,76,0.7) 51%,rgba(233,212,179,0.7) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(243,226,199,0.7) 0%,rgba(193,158,103,0.7) 50%,rgba(182,141,76,0.7) 51%,rgba(233,212,179,0.7) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(243,226,199,0.7) 0%,rgba(193,158,103,0.7) 50%,rgba(182,141,76,0.7) 51%,rgba(233,212,179,0.7) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(243,226,199,0.7) 0%,rgba(193,158,103,0.7) 50%,rgba(182,141,76,0.7) 51%,rgba(233,212,179,0.7) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3f3e2c7', endColorstr='#b3e9d4b3',GradientType=0 ); /* IE6-9 */
+box-shadow:5px 5px 10px rgba(30,30,30,0.5);
+}
+
+.table-gigs{
+width:500px
+}
+
+.table-gigs td,
+.table-contact td,
+.table-contact th,
+.table-bio-disco td,
+.table-bio-disco th{
+padding:8px;
+vertical-align:top;
+}
+
+.table-gigs h3,
+.table-contact h3,
+.table-bio-disco h3{
+color:#5a4500;
+text-align:right;
+padding-right:15px;
+border-bottom:1px dotted #888;
+text-shadow:1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.table-bio-disco-col1{
+width:500px;
+text-align:justify;
+}
+
+.table-bio-disco-col2{
+width:150px;
+}
+
+.titre-album{
+color:#fb6d05;
+font-size:1.4em;
+text-align:center;
+border-bottom:none;
+text-shadow:2px 2px 4px rgba(50,50,50,0.7);
+}
+
+.the-band{
+padding:20px;
+text-shadow:1px 1px 1px rgba(255,255,255,0.7);
+font-size:1.2em;
+}
+
+.description-news{
+padding:15px;
+}
+
+div.description-news div.newsImageContainer p.discreet{
+display:none;
+}
