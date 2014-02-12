@@ -5,6 +5,24 @@ font-size:16pt;
 color:#000;
 }
 
+.stop-float{
+clear:both;
+}
+
+#left-column{
+float:left;
+width:20%;
+margin-left:20px;
+}
+
+
+#main-column-large {
+float:none;
+width:95%;
+margin:auto;
+}
+
+
 #wrapper-site{
 min-height:1000px;
 width:1145px;
@@ -37,7 +55,7 @@ width:440px;
 
 #menu-sup{
 background-image: url(images/menu-sup.jpg);
-height:77px;
+height:79px;
 }
 
 /* début list-menu-sup */
@@ -78,23 +96,26 @@ border-left:none !important;
 #main-content{
 background-image: url(images/main_content.png);
 background-repeat:repeat-y;
-min-height:563px;
+min-height:712px;
 }
 
 #main-column{
+position:relative;
+left:2px;
 background-image: url(images/main_text.png);
 background-repeat:repeat-y;
-margin-left:43px;
-padding:10px;
-width:1049px;
+width:1067px;
 min-height:560px;
+margin:auto;
 }
 
 
 #bordure-inf-cadre{
-background-image: url(images/footer.jpg);
+background-image: url(images/border_inf.png);
 background-repeat:no-repeat;
 height:58px;
+margin-left:2px;
+margin-top:-25px;
 }
 
 #colophon{

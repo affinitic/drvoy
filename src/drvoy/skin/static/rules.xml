@@ -6,7 +6,7 @@
 
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
 
-    <notheme if="$ajax_load" />
+    <!--notheme if="$ajax_load" /-->
     <notheme if-path="presentation_view"/>
     <notheme if-path="source_editor.htm"/>
     <notheme if-path="ploneimage.htm"/>
