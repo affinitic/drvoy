@@ -86,6 +86,11 @@ background-color:rgba(200, 200, 200, 0.5);
 
 #content{
 font-weight:bold;
+clear: both;
+font-size: 80%;
+line-height: 1.5em;
+margin: 1em 0.25em 2em;
+padding-bottom: 5px;
 }
 
 #content a:link, dl.portlet a:link {
