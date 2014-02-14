@@ -1,5 +1,5 @@
 body{
-background-color:#000;
+background-color:#999;
 font-family: arial, verdana, helvetica, sans-serif;
 font-size:16pt;
 color:#000;
@@ -23,10 +23,17 @@ margin:auto;
 }
 
 
+#wrapper{
+}
+
 #wrapper-site{
 min-height:1000px;
 width:1145px;
 margin:auto;
+border:1px solid #f00;
+background-image: url(images/main_text.png);
+background-repeat:repeat-y;
+
 }
 
 header{
@@ -102,8 +109,6 @@ min-height:712px;
 #main-column{
 position:relative;
 left:2px;
-background-image: url(images/main_text.png);
-background-repeat:repeat-y;
 width:1067px;
 min-height:680px;
 margin:auto;
