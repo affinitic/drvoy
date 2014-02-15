@@ -9,15 +9,15 @@ jQuery(function($){
 		// Components							
 		slide_links : 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides:[ 
-		        {image : 'ddrvoy_bg_01.jpg'},
-		        {image : 'ddrvoy_bg_02.jpg'},
-		        {image : 'ddrvoy_bg_03.jpg'},
-		        {image : 'ddrvoy_bg_04.jpg'},
-		        {image : 'ddrvoy_bg_05.jpg'},
-		        {image : 'ddrvoy_bg_06.jpg'},
-		        {image : 'ddrvoy_bg_07.jpg'},
-		        {image : 'ddrvoy_bg_08.jpg'},
-		        {image : 'ddrvoy_bg_09.jpg'}
+		        {image : 'drvoy_bg_01.jpg'},
+		        {image : 'drvoy_bg_02.jpg'},
+		        {image : 'drvoy_bg_03.jpg'},
+		        {image : 'drvoy_bg_04.jpg'},
+		        {image : 'drvoy_bg_05.jpg'},
+		        {image : 'drvoy_bg_06.jpg'},
+		        {image : 'drvoy_bg_07.jpg'},
+		        {image : 'drvoy_bg_08.jpg'},
+		        {image : 'drvoy_bg_09.jpg'}
 		        ]
 		});
 	});
