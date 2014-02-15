@@ -1,5 +1,5 @@
 body{
-background-color:#999;
+background-color:#000;
 font-family: arial, verdana, helvetica, sans-serif;
 font-size:16pt;
 color:#000;
@@ -30,10 +30,9 @@ margin:auto;
 min-height:1000px;
 width:1145px;
 margin:auto;
-border:1px solid #f00;
 background-image: url(images/main_text.png);
 background-repeat:repeat-y;
-
+background-position:center;
 }
 
 header{
