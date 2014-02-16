@@ -30,9 +30,6 @@ margin:auto;
 min-height:1000px;
 width:1145px;
 margin:auto;
-background-image: url(images/main_text.png);
-background-repeat:repeat-y;
-background-position:center;
 }
 
 header{
@@ -100,9 +97,10 @@ border-left:none !important;
 }
 
 #main-content{
+min-height:712px;
 background-image: url(images/main_content.png);
 background-repeat:repeat-y;
-min-height:712px;
+background-position:left top;
 }
 
 #main-column{
@@ -111,6 +109,10 @@ left:2px;
 width:1067px;
 min-height:680px;
 margin:auto;
+background-image: url(images/main_text.png);
+background-repeat:repeat-y;
+background-position:left top;
+
 }
 
 
