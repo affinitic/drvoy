@@ -9,7 +9,7 @@ border-bottom:0px solid #000;
 }
 
 h1{
-background-image:url(images/logo_drvoy_small.png);
+background-image: url("/++theme++drvoy.skin/images/logo_drvoy_small.png");
 background-repeat:no-repeat;
 background-position:left 20px;
 padding-left:80px;
@@ -132,8 +132,13 @@ padding:10px;
 margin:20px 0px;
 }
 
+#content-core div#parent-fieldname-text{
+min-height:160px;
+}
+
 #content div.newsImageContainer{
 text-align:center;
+margin-top:15px;
 }
 
 #content div.newsImageContainer p.discreet {
