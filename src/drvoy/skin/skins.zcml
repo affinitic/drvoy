@@ -5,5 +5,4 @@
    <cmf:registerDirectory name="drvoy_skin_images"/>
    <cmf:registerDirectory name="drvoy_skin_templates"/>
    <cmf:registerDirectory name="drvoy_skin_styles"/>
-
 </configure>

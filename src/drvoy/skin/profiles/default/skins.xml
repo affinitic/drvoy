@@ -22,7 +22,6 @@
                insert-after="drvoy_skin_images"/>
         <layer name="drvoy_skin_styles"
                insert-after="drvoy_skin_templates"/>
-
     </skin-path>
 
 </object>

@@ -179,7 +179,13 @@ margin:10px 0px;
 color:#ffe653;
 }
 
+.ombre-portee{
+box-shadow:10px 10px 20px rgba(50,50,50,0.7);
+}
 
+.table-centree{
+margin:auto;
+}
 
 
 
