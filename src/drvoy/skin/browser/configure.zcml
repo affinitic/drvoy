@@ -16,22 +16,22 @@
 <!-- ressources -->
 
   <browser:resource
-      file="resource/supersized.3.2.7.min.js"
+      file="js/supersized.3.2.7.min.js"
       name="supersized.3.2.7.min.js"
       />
 
   <browser:resource
-      file="resource/supersized.shutter.min.js"
+      file="js/supersized.shutter.min.js"
       name="supersized.shutter.min.js"
       />
 
   <browser:resource
-      file="resource/jquery.easing.min.js"
+      file="js/jquery.easing.min.js"
       name="jquery.easing.min.js"
       />
 
   <browser:resource
-      file="resource/drvoy.js"
+      file="js/drvoy.js"
       name="drvoy.js"
       />
 
