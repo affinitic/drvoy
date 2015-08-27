@@ -19,8 +19,7 @@ jQuery(function($){
 		        {image : 'drvoy_bg_08.jpg'},
 		        {image : 'drvoy_bg_09.jpg'},
 		        {image : 'drvoy_bg_10.jpg'},
-		        {image : 'drvoy_bg_11.jpg'},
-		        {image : 'drvoy_bg_12.jpg'}
+		        {image : 'drvoy_bg_11.jpg'}
 		        ]
 		});
 	});
