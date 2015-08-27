@@ -6,7 +6,7 @@
 
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
 
-    <!--notheme if="$ajax_load" /-->
+    <notheme if="$ajax_load" />
     <notheme if-path="presentation_view"/>
     <notheme if-path="source_editor.htm"/>
     <notheme if-path="ploneimage.htm"/>
@@ -37,32 +37,39 @@
 
     <replace css:content-children="#portal-personaltools-wrapper"
              css:theme-children="#personal-tools" />
-        
+
     <replace css:content-children="#portal-logo"
              css:theme-children="#portal-logo" />
-    
+
     <replace css:content-children="#portal-globalnav"
              css:theme-children="#menu-sup" />
 
+    <!--
     <replace css:content-children="#portal-column-one"
-             css:theme-children="#left-column" />
+             css:theme-children="#left-column"
+             if="$have_no_portlet" />
+    -->
 
     <replace css:content-children="#portal-column-content"
              css:theme-children="#main-column"
              if="$have_portlets" />
-    
+
     <replace css:content-children="#portal-column-content"
              css:theme-children="#main-column-large"
              if="$have_no_portlet" />
-    
+
+
     <!--replace css:content-children="#portal-colophon"
              css:theme-children="#colophon" /-->
 
     <!--replace css:content-children="#portal-footer"
              css:theme-children="#footer" /-->
 
+    <!--
     <drop css:theme="#left-column" if="$have_no_portlet" />
     <drop css:theme="#main-column" if="$have_no_portlet" />
     <drop css:theme="#main-column-large" if="$have_portlets" />
+    -->
+
 
 </rules>

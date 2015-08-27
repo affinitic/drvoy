@@ -12,9 +12,7 @@
       name="drvoy skin layer"
       />
 
-
 <!-- ressources -->
-
   <browser:resource
       file="js/supersized.3.2.7.min.js"
       name="supersized.3.2.7.min.js"
@@ -34,10 +32,4 @@
       file="js/drvoy.js"
       name="drvoy.js"
       />
-
-
-
-
-
-
 </configure>
