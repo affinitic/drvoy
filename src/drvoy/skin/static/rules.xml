@@ -51,6 +51,10 @@
     -->
 
     <replace css:content-children="#portal-column-content"
+             css:theme-children="#main-column"
+             if="$have_portlets" />
+
+    <replace css:content-children="#portal-column-content"
              css:theme-children="#main-column-large"
              if="$have_no_portlet" />
 
