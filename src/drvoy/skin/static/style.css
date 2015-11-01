@@ -45,8 +45,8 @@ z-index:1;
 min-height:1000px;
 width:1145px;
 margin:auto;
-border-left:2px solid #000;
-border-right:2px solid #000;
+border-left:1px solid #ddd;
+border-right:1px solid #ddd;
 background-color:rgba(100,100,100,0.3);
 }
 
