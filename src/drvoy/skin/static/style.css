@@ -6,7 +6,12 @@ Made by Affinitic
 
 /*** STATIC ***/
 body{
-background-color:#000;
+background-color:#b5b4b2;
+background-image:url(images/body_bg_studio.jpg);
+background-repeat: no-repeat;
+background-position:center center;
+background-attachment:fixed;
+background-size:cover;
 font-family: arial, verdana, helvetica, sans-serif;
 font-size:16pt;
 color:#000;
@@ -40,13 +45,17 @@ z-index:1;
 min-height:1000px;
 width:1145px;
 margin:auto;
+border-left:2px solid #000;
+border-right:2px solid #000;
+background-color:rgba(100,100,100,0.3);
 }
 
 header{
 background-image: url(images/header.jpg);
 background-repeat:no-repeat;
-background-position:7px center;
-height:185px;
+background-position:center top;
+background-size:cover;
+height:344px;
 }
 
 div#top-search{
@@ -69,17 +78,15 @@ width:440px;
 }
 
 #menu-sup{
-background-image: url(images/menu-sup.jpg);
-background-position: 7px top;
-background-repeat: no-repeat;
-height:76px;
+background-color: rgba(255, 255, 255, 1);
+height:36px;
 }
 
 /* début list-menu-sup */
 
 #menu-sup ul{
 margin:0;
-padding:0px 0px 0px 28px;
+padding:0px 0px 0px 38px;
 }
 
 #menu-sup li{
@@ -87,9 +94,13 @@ display:inline;
 border-left:2px solid #000;
 list-style-type:none;
 position:relative;
-left:28px;
-line-height:95px;
+left:55px;
+line-height:35px;
 padding:0px 18px;
+}
+
+#menu-sup li:first-child{
+border-left:0px solid #000;
 }
 
 #menu-sup li a{
@@ -112,9 +123,9 @@ border-left:none !important;
 
 #main-content{
 min-height:712px;
-background-image: url(images/main_content.png);
+/*background-image: url(images/main_content.png);
 background-repeat:repeat-y;
-background-position:left top;
+background-position:left top;*/
 }
 
 #main-column{
@@ -123,10 +134,9 @@ left:2px;
 width:1067px;
 min-height:680px;
 margin:auto;
-background-image: url(images/main_text.png);
+/*background-image: url(images/main_text.png);
 background-repeat:repeat-y;
-background-position:left top;
-
+background-position:left top;*/
 }
 
 
@@ -134,19 +144,19 @@ footer{
 }
 
 #bordure-inf-cadre{
-background-image: url(images/border_inf.png);
-background-repeat:no-repeat;
+/*background-image: url(images/border_inf.png);
+background-repeat:no-repeat;*/
 height:58px;
 margin-left:2px;
 margin-top:-60px;
 }
 
 #colophon{
-background-image: url(images/colophon.jpg);
-background-repeat:no-repeat;
-height:171px;
+/*background-image: url(images/colophon.jpg);
+background-repeat:no-repeat;*/
+background-color:rgba(50,50,50,0.7);
+height:100px;
 text-align:center;
-border-radius:18px 18px 0px 0px;
 }
 
 #colophon .logo-partenaire{
@@ -167,7 +177,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccb5bdc8', e
 
 #copyright{
 border:1px solid #000;
-border-radius:0px 0px 12px 12px;
 text-align:center;
 font-size:10px;
 color:#888;
